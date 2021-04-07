@@ -1,0 +1,78 @@
+<div class="container">
+  <div
+    fxLayout="row"
+    fxLayoutAlign="center center"
+    fxLayoutGap="20px"
+    class="content"
+  >
+    <div class="blocks"><h2>User Profile</h2></div>
+  </div>
+  <div
+    fxLayout="row"
+    fxLayoutAlign="center center"
+    fxLayoutGap="20px"
+    class="content"
+  >
+    <div class="blocks">
+      <label for="subject"><b>About Yourself</b></label>
+    </div>
+    <div class="blocks"><app-videojs-record></app-videojs-record></div>
+    <div class="blocks">
+      <textarea
+        id="subject"
+        name="subject"
+        placeholder="Write something.."
+        style="height: 200px; width: 300px"
+      ></textarea>
+    </div>
+  </div>
+
+  <div
+    fxLayout="row"
+    fxLayoutAlign="center center"
+    fxLayoutGap="20px"
+    class="content"
+  >
+    <div class="blocks">
+      <label for="subject"
+        ><b
+          >Skill&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b
+        ></label
+      >
+    </div>
+    <div class="blocks"><app-videojs-record1></app-videojs-record1></div>
+    <div class="blocks">
+      <textarea
+        id="subject"
+        name="subject"
+        placeholder="Write something.."
+        style="height: 200px; width: 300px"
+      ></textarea>
+    </div>
+  </div>
+  <div
+    fxLayout="row"
+    fxLayoutAlign="center center"
+    fxLayoutGap="20px"
+    class="content"
+  >
+    <div class="blocks">&nbsp;</div>
+  </div>
+  <div
+    fxLayout="row"
+    fxLayoutAlign="center center"
+    fxLayoutGap="20px"
+    class="content"
+  >
+    <div class="blocks">
+      <button
+        mat-raised-button
+        type="submit"
+        (click)="SaveProfile()"
+        color="primary"
+      >
+        Save Profile
+      </button>
+    </div>
+  </div>
+</div>
